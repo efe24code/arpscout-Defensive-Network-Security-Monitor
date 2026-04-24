@@ -1,0 +1,9 @@
+scapy>=2.5.0
+psutil>=5.9.0
+matplotlib>=3.5.0
+
+# Optional: Windows desktop notifications
+win10toast>=0.9; platform_system == "Windows"
+
+# Optional: Linux/macOS network interface listing (Windows needs compilation, so skip)
+netifaces>=0.11.0; platform_system != "Windows"
